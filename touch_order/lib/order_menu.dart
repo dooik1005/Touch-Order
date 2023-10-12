@@ -7,7 +7,6 @@ abstract class Menu { // 모든 메뉴에 관련된 클래스의 부모 클래�
   Image? _menuImage; // 메뉴 사진
   
   Menu(this._menuName, this._menuPrice); // Menu 생성자
-  
 
   //getter
   String get getMenuName {

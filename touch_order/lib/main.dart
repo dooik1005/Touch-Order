@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-
-void main() {
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+void main() async {
   runApp(const TouchOrder());
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 }
 
 class TouchOrder extends StatelessWidget {
@@ -17,7 +21,7 @@ class TouchOrder extends StatelessWidget {
         ),
         body: Center(
           child: ElevatedButton(
-            child: const Text('go to Menu')
+            child: const Text('go to')
             , onPressed: (){
             },)
           ),
