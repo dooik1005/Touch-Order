@@ -75,6 +75,21 @@ flutter:
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
 
+  fonts:
+    - family: Kyungki
+      fonts:
+        - asset: assets/font/kyungki/kyungki_Regular.ttf
+          weight : 100
+        - asset: assets/font/kyungki/kyungki_Bold.ttf
+          weight: 200
+        - asset: assets/font/kyungki/kyungkiTitle_Light.ttf
+          weight: 300
+        - asset: assets/font/kyungki/kyungkiTitle_Medium.ttf
+          weight: 400
+        - asset: assets/font/kyungki/kyungkiTitle_Bold.ttf
+          weight: 500
+        - asset: assets/font/kyungki/kyungkiTitleV_Bold.ttf
+          weight: 600
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
