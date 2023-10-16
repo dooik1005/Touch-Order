@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "26457768453",
+    "project_id": "touchorder-2c908",
+    "storage_bucket": "touchorder-2c908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26457768453:android:64b4182015f663f869526c",
+        "android_client_info": {
+          "package_name": "com.example.touch_order"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26457768453-h14n4sp0vnc1t3dg4ocv8mimf55pknpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.touch_order",
+            "certificate_hash": "3995e182a898e2986d2948c7a50a62df3102e71f"
+          }
+        },
+        {
+          "client_id": "26457768453-lv55k7at419pq28o1f2j1i5s0fbrp6r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs1mbgwVygMlF9_hU3jSlSTpFqTrJo6zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26457768453-lv55k7at419pq28o1f2j1i5s0fbrp6r9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "26457768453-5kh74vkblpfh2kierbtmm89mejst5n8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.touchOrder.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
