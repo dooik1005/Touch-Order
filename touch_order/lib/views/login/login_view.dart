@@ -70,10 +70,10 @@ class _PhoneNumPasswordInputState extends State<PhoneNumPasswordInput> {
   TextFormField phoneNumInput = TextFormField( // 전화번호를 받는 TextFormField
     keyboardType: TextInputType.phone,
     decoration: const InputDecoration(
-      hintText: '전화번호를 입력하세요', 
+      hintText: '전화번호를 입력하세요(01012345678)', 
     ),
     validator: (value) { // 전화번호가 '010-XXXX-XXXX'인 전화번호인지 확인하는 코드
-       RegExp regExp = RegExp(r'(^(010)-[0-9]{4}-[0-9]{4}$)');
+       RegExp regExp = RegExp(r'(^(010)[0-9]{4}[0-9]{4}$)');
       if(!regExp.hasMatch(value!)) {
         return '잘못된 전화번호입니다';
       } else {
